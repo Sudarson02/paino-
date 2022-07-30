@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Piano</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+    </head>
+    
+    <body >
+       
+       <div class="heading">
+<marquee style="background-image: linear-gradient(120deg, Black); width: 100%; direction: ltr; color: lightslategrey;"><h1>Virtual piano </h1></marquee>
+       </div>
+   
+       
+        <div id="main">
+
+ 
+            
+       <br><br><br>
+        <div>
+             <div class="piano">
+                 
+                <div data-note="c"  class="key White"></div>
+                <div data-note="Cb" class="key Black"></div>
+                <div data-note="d"  class="key White"></div>
+                <div data-note="Eb" class="key Black"></div>
+                <div data-note="e"  class="key White"></div>
+                <div data-note="f"  class="key White"></div>
+                <div data-note="Fb" class="key Black"></div>
+                <div data-note="g"  class="key White"></div>
+                <div data-note="Gb" class="key Black"></div>
+                <div data-note="a"  class="key White"></div>
+                <div data-note="Bb" class="key Black"></div>
+                <div data-note="b"  class="key White"></div>
+                <div data-note="d"  class="key White"></div>
+                <div data-note="Eb" class="key Black"></div>
+                <div data-note="e"  class="key White"></div>
+                <div data-note="Fb" class="key Black"></div>
+                <div data-note="f"  class="key White"></div>
+            </div>    
+        <audio id = "c" src = "./note/c.wav" type="audio/wav" ></audio>
+        <audio id = "Cb" src = "./note/Cb.wav" type="audio/wav" ></audio>
+        <audio id = "d" src = "./note/d.wav" type="audio/wav" ></audio>
+        <audio id = "Eb" src = "./note/Eb.wav" type="audio/wav" ></audio>
+        <audio id = "e" src = "./note/e.wav" type="audio/wav" ></audio>
+        <audio id = "f" src = "./note/f.wav" type="audio/wav" ></audio>
+        <audio id = "g" src = "./note/g.wav" type="audio/wav" ></audio>
+        <audio id = "Gb" src = "./note/Gb.wav" type="audio/wav" ></audio>
+        <audio id = "a" src = "./note/a.wav" type="audio/wav" ></audio>
+        <audio id = "Bb" src = "./note/Bb.wav" type="audio/wav" ></audio>
+        <audio id = "b" src = "./note/b.wav" type="audio/wav" ></audio>
+         <audio id = "Fb" src = "./note/d.wav" type="audio/wav" ></audio>
+
+        </div>     
+   
+       
+    </div>
+    <div id="changer" align="center">
+        <button onclick="changecolor()" style="border-radius: 43%">click here to change color </button>    
+     </div>    
+    
+       
+
+
+<footer class="footer" align="center">
+    <div class="hover">
+
+    
+Created  by : Sudarson B 
+<br>
+Contact me : <a href="https://www.instagram.com/_.sudarson._/reels" target="_blank"><i class="fab fa-instagram"></i></a>
+
+<br>
+<div class="copywrite">© 2021 copyrights will be issued by sudarson/11247
+</div></div>
+</footer>
+    </body>
+</html>
